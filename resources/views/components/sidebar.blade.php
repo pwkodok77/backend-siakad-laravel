@@ -24,7 +24,7 @@
                 <ul class="dropdown-menu">
                     <li>
                         <a class="nav-link"
-                            href="{{ url('dashboard-general-dashboard') }}">User List</a>
+                            href="{{route('user.index')}}">User List</a>
                     </li>
                 </ul>
             </li>
