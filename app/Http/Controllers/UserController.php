@@ -50,7 +50,7 @@ class UserController extends Controller
         ]);
         return redirect(route('user.index'))->with('success', 'New User Successfully');
     }
-public function edit(User $user){
+    public function edit(User $user){
     return view('pages.users.edit')->with('user',$user);
 }
 
